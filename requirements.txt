@@ -1,0 +1,12 @@
+tensorflow>=2.15
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python
+Pillow
+tqdm
+transformers
+torch
+accelerate
+nbformat

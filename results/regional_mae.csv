@@ -1,0 +1,6 @@
+Steering region,Original PilotNet,Tuned PilotNet,Improved weighted CNN,Frozen MobileNetV2,CLIP encoder + regressor
+Sharp left,0.304282,0.224206,0.458435,0.408499,0.425305
+Left,0.110978,0.104601,0.174307,0.147978,0.141562
+Straight,0.069072,0.087233,0.043107,0.01979,0.011415
+Right,0.117802,0.12551,0.118861,0.15396,0.174085
+Sharp right,0.299877,0.230439,0.343975,0.380854,0.418579

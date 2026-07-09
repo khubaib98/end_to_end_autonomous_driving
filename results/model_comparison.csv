@@ -1,0 +1,6 @@
+Model,Model type,Trainable parameters,Total parameters,Test MAE,Test RMSE,Test R2,Prediction bias,Macro regional MAE
+Original PilotNet,CNN trained from scratch,252219,252219,0.0962,0.13646,0.14369,0.00567,0.1804
+Tuned PilotNet,Hyperparameter-tuned CNN,252219,252219,0.1034,0.1385,0.11782,-0.00621,0.1544
+Improved weighted CNN,Regularized weighted CNN,137273,137273,0.09376,0.15034,-0.03945,0.04464,0.22774
+Frozen MobileNetV2,ImageNet transfer learning,168129,2426113,0.07657,0.14048,0.09251,0.01385,0.22222
+CLIP encoder + regressor,Vision-language-pretrained encoder,148865,88000081,0.07373,0.14526,0.02968,-0.00019,0.23419

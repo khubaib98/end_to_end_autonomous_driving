@@ -1,0 +1,22 @@
+seed: 42
+image:
+  original_height: 160
+  original_width: 320
+  crop_top: 60
+  crop_bottom: 25
+pilotnet:
+  input_height: 66
+  input_width: 200
+  color_space: YUV
+mobilenet:
+  input_height: 96
+  input_width: 160
+split:
+  train: 0.70
+  validation: 0.15
+  test: 0.15
+balancing:
+  num_bins: 31
+  max_samples_per_bin: 700
+side_camera:
+  steering_correction: 0.15
